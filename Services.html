@@ -28,24 +28,28 @@
 <!-- Services Page -->
 <body>
   <header>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-md">
-    <div class="container p-3">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img src="logo.svg" , alt="logo" , class="logo-img" >
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!-- Offcanvas Sidebar -->
+<nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
+  <div class="container p-3">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasNavbar2"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="logo.svg" , alt="logo" , class="logo-img" >
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">My work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Services.html">Services</a>
+            <a class="nav-link" href="Services.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -59,8 +63,8 @@
         </div>
       </div>
     </div>
-  </nav>
-  </header>
+  </div>
+</nav>
 <!-- Services section-->
 <div class="pt-5 pb-5 text-center">
     <h4>Collaborate with me</h4>
@@ -228,47 +232,47 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center align-content-center mb-5 g-0">
-        <a class="btn" href="contact.html">contact me<span class="button-icon"><i
+        <a class="btn" href="contact.html">let's chat<span class="button-icon"><i
                     class="fa-solid fa-arrow-right arrow-icon fa-xl"></i></span></a>
     </div>
 </div>
 <!-- Contact section -->
 <div class="text-center contact">
-    <h4>Like what you see?</h4>
-    <h1>Let's work together</h1>
-    <div class="contact-p pb-3">
-    <p>If you have a project or social media campaign you would like to discuss with me,
-      complete the contact form below or email me at <a href="mailto:harrys.advantures@gmail.com">
-      <strong>harrys.advantures@gmail.com</strong></a></p>
-    </div>
-    <div class="row d-flex g-0 justify-content-center align-content-center mb-5">
-    <a class="btn-outline" href="contact.html">contact me<span class="button-icon"><i
-        class="fa-solid fa-arrow-right arrow-icon fa-xl"></i></span></a>
-    </div>
+  <h4>Ready when you are</h4>
+  <h1>Let's work together</h1>
+  <div class="contact-p pb-3">
+  <p>If you have a project or social media campaign you would like to discuss with me,
+    complete the contact form below or email me at <a href="mailto:harrys.advantures@gmail.com">
+    <strong>harrys.advantures@gmail.com</strong></a></p>
   </div>
+  <div class="row d-flex g-0 justify-content-center align-content-center mb-5">
+  <a class="btn-outline" href="contact.html">contact me<span class="button-icon"><i
+      class="fa-solid fa-arrow-right arrow-icon fa-xl"></i></span></a>
+  </div>
+</div>
 <!-- Footer section -->
 <div class="d-flex flex-column pt-5 text-center justify-content-center align-items-center">
-    <div class="row">
-      <img src="logo.svg" , alt="logo" , class="footer-logo"><br>
-    </div>
-    <div class="row social-links g-0 pt-3">
-      <div class="col">
-        <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
-          <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
-      </div>
-      <div class="col">
-        <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
-          <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
-      </div>
-    </div>
-    <div class="row">
-      <p class="footer-p"><small><a href="mailto:harrys.advantures@gmail.com">
-            <u>harrys.advantures@gmail.com</u></a> | Gloucestershire, England<br>
-          © Copyright 2024 Harry's Advantures | Website design and development by
-          <a href="https://rachelsgriffiths.github.io/portfolio/"><u>Rachel Griffiths</u></a></small></p>
-    </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
-    </html>
+<div class="row">
+  <img src="logo.svg" , alt="logo" , class="footer-logo"><br>
+</div>
+<div class="row social-links g-0 pt-3">
+  <div class="col">
+    <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
+      <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
+  </div>
+  <div class="col">
+    <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
+      <i class="fa-brands fa-tiktok icon fa-lg "></i></a>
+  </div>
+</div>
+<div class="row w-75">
+  <p><small><a href="mailto:harrys.advantures@gmail.com">
+        <u>harrys.advantures@gmail.com</u></a> | Gloucestershire, England<br>
+      © Copyright 2024 Harry's Advantures | Website design and development by
+      <a href="https://rachelsgriffiths.github.io/portfolio/"><u>Rachel Griffiths</u></a></small></p>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
