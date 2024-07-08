@@ -26,42 +26,73 @@
 <!-- Home Page -->
 <body>
   <header>
-    <nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
-      <div class="container p-3">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasNavbar2"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <img src="logo.svg" , alt="logo" , class="logo-img" >
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-          <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">My work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <div class="social-links d-none d-sm-block">
-              <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
-                <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
-              <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
-                <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
-            </div>
-          </div>
+  <!-- Offcanvas Sidebar -->	
+<div class="offcanvas offcanvas-start offcanvas-lg" id="demo">
+  <div class="offcanvas-header">
+    
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+   </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">My work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+       <div class="social-links">
+          <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
+            <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
+          <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
+            <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+        </div> 
+  
+	</div>
+</div>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
+   <div class="container p-3">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    
+        <img src="logo.svg" , alt="logo" , class="logo-img" >
+		<div class="d-none d-md-block">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">My work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
         </div>
-      </div>
-    </nav>
+        <div class="social-links d-none d-sm-block">
+          <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
+            <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
+          <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
+            <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+        </div>
+      
+  </div>
+  
+</nav>
 <!-- Scrubba Portfolio -->
 <div class="pt-5 pb-5 text-center">
   <h4>example work</h4>
@@ -135,31 +166,31 @@
 <div class="container p-0 text-center mb-4 ps-4 pe-4">
   <div class="row">
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-cable-car.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-cable-car.jpg" , alt="keen shoes in the air" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-mountains.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-mountains.jpg" , alt="keen shoes with mountain background" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-cable-car3.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-cable-car3.jpg" , alt="keen shoes in the air" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-lac-blanc.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-lac-blanc.jpg" , alt="keen shoes infront of lac blanc" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-lac-blanc2.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-lac-blanc2.jpg" , alt="keen shoes infront of lac blanc" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-      <img src="keen-cable-car2.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+      <img src="keen-cable-car2.jpg" , alt="keen shoes with mont blanc in the background" class="img-fluid rounded-4" style="width:350px">
     </div>
     <div class="col col-12 col-md-6 col-lg-4 pb-5">
-        <img src="keen-norway.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+        <img src="keen-norway.jpg" , alt="keen shoes with water underneath" class="img-fluid rounded-4" style="width:350px">
       </div>
       <div class="col col-12 col-md-6 col-lg-4 pb-5">
-        <img src="keen-norway3.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+        <img src="keen-norway3.jpg" , alt="man wearing keen shoes" class="img-fluid rounded-4" style="width:350px">
       </div>
       <div class="col col-12 col-md-6 col-lg-4 pb-5">
-        <img src="keen-norway2.jpg" , alt="scrubba photo" class="img-fluid rounded-4" style="width:350px">
+        <img src="keen-norway2.jpg" , alt="legs and keen shoes" class="img-fluid rounded-4" style="width:350px">
       </div>
   </div>
   </div>

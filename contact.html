@@ -28,19 +28,13 @@
 <!-- Contact Page -->
 <body>
   <header>
-<!-- Offcanvas Sidebar -->
-<nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
-  <div class="container p-3">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasNavbar2"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <img src="logo.svg" , alt="logo" , class="logo-img" >
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-      <div class="offcanvas-header">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
+<!-- Offcanvas Sidebar -->	
+<div class="offcanvas offcanvas-start offcanvas-lg" id="demo">
+  <div class="offcanvas-header">
+    
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+   </div>
+    <div class="offcanvas-body">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -55,23 +49,63 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
+       <div class="social-links">
+          <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
+            <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
+          <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
+            <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+        </div> 
+  
+	</div>
+</div>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
+   <div class="container p-3">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    
+        <img src="logo.svg" , alt="logo" , class="logo-img" >
+		<div class="d-none d-md-block">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">My work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        </div>
         <div class="social-links d-none d-sm-block">
           <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
             <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
           <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
             <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
         </div>
-      </div>
-    </div>
+      
   </div>
+  
 </nav>
 <!-- Contact -->
 <div class="pt-5 pb-3 text-center">
     <h4>Let's get started</h4>
     <h1 class="mb-1">Contact me</h1>
+    <p class="text-secondary mb-5 text-center pt-3">I look forward to discussing 
+      how I can contribute to your social media projects.
+      I’m excited to hear from you soon.</p>
+      <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+
 </div>
-<!-- Contact form -->
-<!-- Contact 1 - Bootstrap Brain Component -->
+<!-- Contact form
 <section class="py-md-5">
     <div class="container">
       <div class="row justify-content-md-center">
@@ -87,8 +121,7 @@
       <div class="row justify-content-lg-center">
         <div class="col-12 col-lg-9">
           <div class="bg-white border rounded shadow-sm overflow-hidden">
-            <form action="#!">
-              <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+            <form action=”harrys.advantures@gmail.com” method=”post” enctype=”text/plain”>              <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                 <div class="col-12">
                   <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
@@ -137,6 +170,10 @@
       </div>
     </div>
   </section>
+  -->
+  <!-- Widget-->
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <div class="elfsight-app-72d4b169-d7ec-4945-8cba-815363cf75dd form" data-elfsight-app-lazy></div>
 <!-- Footer section -->
 <div class="d-flex flex-column pt-5 text-center justify-content-center align-items-center">
   <div class="row">
