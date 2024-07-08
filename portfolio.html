@@ -23,97 +23,141 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 <!-- Portfolio Main Page -->
 <body>
   <header>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-md">
+<!-- Offcanvas Sidebar -->
+<nav class="navbar navbar-expand-md d-flex align-items-center justify-content-space-between" aria-label="Offcanvas navbar large">
   <div class="container p-3">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <img src="logo.svg" , alt="logo" , class="logo-img" >
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="portfolio.html">My work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      <div class="social-links d-none d-sm-block">
-        <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
-          <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
-        <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
-          <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasNavbar2"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="logo.svg" , alt="logo" , class="logo-img" >
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="portfolio.html">My work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="social-links d-none d-sm-block">
+          <a href="https://www.instagram.com/harrysadvantures/" target=”_blank”>
+            <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
+          <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
+            <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+        </div>
       </div>
     </div>
   </div>
 </nav>
-</header>
 <!-- Grid of portfolio photos-->
 <div class="pt-5 pb-5 text-center">
   <h4>example work</h4>
   <h1 class="mb-1">Portfolio</h1>
 </div>
-<div class="container">
+<div class="container text-center mb-4 ps-4 pe-4 pb-5">
   <div class="row">
-    <div class="col g-0 p-0 m-0">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image " style="width: 20rem;">
-      <h3 class="text-center">Brand 1</h3>
-
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="scrubba2.jpg" class="card-img-top" alt="man using scrubba washbag.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Scrubba</h5>
+          <p class="card-text">Increasing awareness of the Scrubba wash bag on Instagram.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="scrubba.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-      <h3 class="text-center">Brand 2</h3>
-
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="tractive.jpeg" class="card-img-top" alt="dog wearing Tractive GPS device.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Tractive</h5>
+          <p class="card-text">Video content for Tractive campaigns.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="tractive.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-      <h3 class="text-center">Brand 3</h3>
-
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="keen.jpg" class="card-img-top" alt="man using scrubba washbag.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Keen</h5>
+          <p class="card-text">Photo content of Keen shoes for use for their social media.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="keen.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-      <h3 class="text-center">Brand 4</h3>
-
+<!--
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="scrubba2.jpg" class="card-img-top" alt="man using scrubba washbag.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Scrubba</h5>
+          <p class="card-text">Increasing awareness of the Scrubba wash bag on Instagram.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="scrubba.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-      <h3 class="text-center">Brand 5</h3>
-
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="tractive.jpeg" class="card-img-top" alt="dog wearing Tractive GPS device.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Tractive</h5>
+          <p class="card-text">Video content for Tractive campaigns.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="tractive.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="placeholder.svg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-      <h3 class="text-center">Brand 6</h3>
-
+    <div class="col col-12 col-md-6 col-lg-4 mb-3">
+      <div class="card border-light w-100 h-100">
+        <img src="keen.jpg" class="card-img-top" alt="man using scrubba washbag.">
+        <div class="card-body text-center text-md-start">
+          <h5 class="card-title">Keen</h5>
+          <p class="card-text">Photo content of Keen shoes for use for their social media.</p>
+          <div class="row d-flex g-0 justify-content-center align-content-center text-center">
+            <a class="project-btn" href="keen.html">view project<span class="button-icon"><i
+                class="fa-solid fa-arrow-right arrow-icon fa-md"></i></span></a>
+            </div>
+        </div>
+      </div>
     </div>
-  </div>
 </div>
-
-<!-- Portfolio hover card -->
-<div class="portfolio-example border">
-  <img src="scrubba-cover.jpg" alt="Image of scrubba washbag" class="image" style="width: 20rem;">
-  <div class="middle">
-    <div class="text"><a href="scrubba.html"><u>View the project</u></div>
-    </div>
-    <h3 class="text-center">Scrubba</h3>
+-->
 </div>
-
-
-
+</div>
 <!-- Contact section -->
 <div class="text-center contact">
   <h4>Like what you see?</h4>
@@ -124,7 +168,7 @@
     <strong>harrys.advantures@gmail.com</strong></a></p>
   </div>
   <div class="row d-flex g-0 justify-content-center align-content-center mb-5">
-  <a class="btn-outline" href="#projects">recent work<span class="button-icon"><i
+  <a class="btn-outline" href="contact.html">contact me<span class="button-icon"><i
       class="fa-solid fa-arrow-right arrow-icon fa-xl"></i></span></a>
   </div>
 </div>
@@ -140,11 +184,11 @@
   </div>
   <div class="col">
     <a href="https://www.tiktok.com/@harrysadvantures?lang=en" target=”_blank”>
-      <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+      <i class="fa-brands fa-tiktok icon fa-lg "></i></a>
   </div>
 </div>
-<div class="row">
-  <p class="footer-p"><small><a href="mailto:harrys.advantures@gmail.com">
+<div class="row w-75">
+  <p><small><a href="mailto:harrys.advantures@gmail.com">
         <u>harrys.advantures@gmail.com</u></a> | Gloucestershire, England<br>
       © Copyright 2024 Harry's Advantures | Website design and development by
       <a href="https://rachelsgriffiths.github.io/portfolio/"><u>Rachel Griffiths</u></a></small></p>
