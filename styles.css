@@ -237,34 +237,10 @@ ul {
 }
 
 /*TESTIMONIALS*/
-.logo-non-stop{
+.logo {
     width: 70px;
     border-radius: 10px;
     padding: 28px 8px;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-}
-
-.logo-tractive{
-    width: 70px;
-    border-radius: 10px;
-    padding: 28px 8px;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-}
-
-.logo-brittany{
-    width: 70px;
-    border-radius: 10px;
-    padding: 30px 8px;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-}
-
-.logo-scrubba {
-    width: 70px;
-    border-radius: 10px;
-    padding: 9x 8px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
