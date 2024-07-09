@@ -458,7 +458,6 @@ input[type='checkbox'] {
 /*scrubba portfolio*/
 .portfolio-img{
     max-width: 75%;
-    border-radius: 10px;
 }
 
 .campaigns {
