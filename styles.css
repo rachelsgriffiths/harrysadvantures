@@ -238,28 +238,12 @@ ul {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.testimonials {
-    padding-top: 90px;
-    padding-bottom: 24px;
-    border-top: 1px solid rgba(51, 51, 51, 0.2);
-}
-
-.testimonial-content {
-    padding-top: 32px;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
-}
-
-.testimonial3 {
-    border-bottom: none;
-}
-
 @media (min-width: 1000px) {
     .testimonial-content {
         width: 65%;
         margin:auto;
 
     }
-
     .services-img {
         padding-top: 64px;
     }
@@ -343,7 +327,13 @@ input[type='checkbox'] {
 }
 
 .photo {
-    max-width: 40%;
+    max-width: 50%;
+}
+
+@media (min-width: 768px) {
+    .about, .services {
+        width: 75%;
+    }
 }
 
 /* ABOUT*/
@@ -431,9 +421,6 @@ input[type='checkbox'] {
     max-width: 75%;
 }
 
-.campaigns {
-    border-top: 1px solid rgba(51, 51, 51, 0.2);
-}
 .campaign-scroll {
     margin-left: 8px;
     margin-right: 8px;
@@ -468,12 +455,17 @@ input[type='checkbox'] {
 }
 
 .campaign-testimonial {
-    padding-top: 90px;
+    padding-top: 56px;
     padding-bottom: 90px;
-    border-top: 1px solid rgba(51, 51, 51, 0.2);
 }
 
 
+@media (min-width: 768px) {
+    .campaign-testimonial {
+        width:50%;
+        margin:auto;
+    }
+}
 
 /*************************************/
 /*SERVICES PAGE*/
@@ -519,7 +511,8 @@ input[type='checkbox'] {
 .portfolio-arrow:hover {
     color: #8D9B6E;
 }   
-            
+
+
             
             
             
