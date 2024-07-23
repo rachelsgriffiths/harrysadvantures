@@ -22,11 +22,6 @@ body {
     font-family: "Source Sans 3", sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-    width: 100%;
-}
-
 /*TYPOGRAPHY*/
 p {
     font-size: 18px;
@@ -230,10 +225,7 @@ ul {
 
 @media (max-width: 1000px) {
     .logo-bar {
-        margin-left: 8px;
-        margin-right: 8px;
-        overflow-x: scroll;  
-        gap: 32px;
+        overflow-x: scroll; 
     }
 }
 
@@ -268,7 +260,6 @@ ul {
 @media (min-width: 1000px) {
     .testimonial-content {
         width: 65%;
-        margin: auto;
     }
 
     .services-img {
