@@ -189,8 +189,8 @@ ul {
 }
 
 .reel {
-    width: 200px;
     border-radius: 15px;
+    width:200px;
 }
 
 @media (prefers-reduced-motion) {
@@ -260,6 +260,8 @@ ul {
 @media (min-width: 1000px) {
     .testimonial-content {
         width: 65%;
+        margin:auto;
+
     }
 
     .services-img {
