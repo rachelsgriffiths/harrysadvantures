@@ -12,9 +12,6 @@ a {
 }
 
 /*BASE STYLE*/
-html {
-    overflow: x-hidden;
-}
 
 body {
     background-color: #F8F7F4;
@@ -213,13 +210,12 @@ ul {
 }
 
 .clients {
-    padding: 40px 0px;
+    padding: 32px 0px;
 }
 
 .logo-bar {
     margin-left: 24px;
     margin-right: 24px;
-    padding-top: 24px;
     overflow:hidden;
 }
 
@@ -353,7 +349,7 @@ input[type='checkbox'] {
 /* ABOUT*/
 
 .about {
-    padding-top: 64px;
+    padding-top: 24px;
     padding-bottom: 64px;
 }
 
@@ -382,6 +378,10 @@ input[type='checkbox'] {
 .contact-p{
     width: 50%;
     margin:auto;
+}
+
+.about-p, .services-p{
+    width:100%;
 }
 
 .contact>h4 {

@@ -60,15 +60,18 @@
 
 <!-- Navbar -->
 
-<nav class="navbar navbar-expand-md d-flex align-items-center" aria-label="Offcanvas navbar large">
-   <div class="container p-3">
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-    </button>
-    <img src="logo.svg" , alt="logo" , class="logo-img order" >
-		<div class="d-none d-md-block">
-        <ul class="navbar-nav mb-2 mb-lg-0 ">
+<nav class="navbar navbar-expand-lg d-flex p-0" aria-label="Offcanvas navbar large">
+  <div class="row p-3 container-fluid">
+    <div class="col">
+
+      <button class="navbar-toggler" type="button-sm" data-bs-toggle="offcanvas" data-bs-target="#demo"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="col nav d-none d-lg-block">
+        <ul class="navbar-nav text-start ms-5">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
@@ -82,18 +85,27 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-        </div>
+      </div>
+    </div>
 
-        <div class="social-links d-none d-sm-block">
-          <a href="https://www.instagram.com/harrysadvantures/" aria-label="Link to Harry's instagram" target=”_blank”>
-            <i class="fa-brands fa-instagram icon fa-lg pe-3"></i></a>
-          <a href="https://www.tiktok.com/@harrysadvantures?lang=en" aria-label="Link to Harry's TikTok" target=”_blank”>
-            <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
-        </div>
-      
+    <div class="col">
+      <ul class="navbar-nav justify-content-center">
+        <img src="logo.svg" alt="logo" class="logo-img">
+      </ul>
+    </div>
+
+    <div class="col d-none d-lg-block">
+      <ul class="navbar-nav justify-content-end me-5">
+        <a href="https://www.instagram.com/harrysadvantures/" aria-label="Link to Harry's instagram" target=”_blank”>
+          <i class="fa-brands fa-instagram icon fa-lg"></i></a>
+        <a href="https://www.tiktok.com/@harrysadvantures?lang=en" aria-label="Link to Harry's TikTok" target=”_blank”>
+          <i class="fa-brands fa-tiktok icon fa-lg"></i></a>
+      </ul>
+    </div>
+
   </div>
-  
 </nav>
+  
 <!-- Hero -->
 <main>
   <div class="pt-4 pb-4 pt-lg-5 pb-lg-5 text-center heading">
@@ -175,7 +187,7 @@
 <!-- Testimonials section -->  
 <div class="testimonials text-center">
   <h4>Testimonials</h4>
-  <h2>What my clients say about me</h2>
+  <h2 class="m-0">What my clients say about me</h2>
   <div class="container text-center mb-5">
     <div class="row testimonial-content">
       <div class="col-sm-12 col-lg-2 pt-lg-3">
@@ -230,12 +242,14 @@
         
       </div>
       <div class="col-sm-12 col-lg-6 right-col">
+        <div class="services-p">
         <p>Whether you need a one-off collaboration, ongoing partnership, unique content
           for your audience, or complete management of your social media accounts,
           I’m here to help.</p>
 
         <p>With over 2 years of experience in social media and a background in marketing and
           business, <strong>I will boost your online presence</strong> &#128640</p>
+        </div>
         <!-- Collapsible content -->
         <div class="row">
           <div class="wrap-collabsible">
@@ -323,6 +337,7 @@
     <div class="col-sm-12 col-md-12 col-lg-6 align-self-start text-center text-lg-start">
       <h4>Exploring, capturing, sharing</h4>
       <h2 >Hello, I'm Harry</h2>
+      <div class="about-p">
       <p>A freelance content creator with a hunger for adventure and a love for the great outdoors.
         For me, exploring our beautiful planet isn't just a hobby – it's a way of life.
         Amidst the hustle and bustle of modern life, nature is a place where I can find peace,
@@ -336,6 +351,7 @@
       </p>
       <p>As a freelance content creator, I use my lifestyle and creative energy to authentically
         show off your product or business. </p>
+      </div>
     </div>
 <!-- Polaroid photos -->
 <div class="col-sm-12 col-md-12 col-lg-6 align-self-center pt-3">
@@ -385,7 +401,7 @@
         <i class="fa-brands fa-tiktok icon fa-lg "></i></a>
     </div>
   </div>
-  <div class="row w-75">
+  <div class="row w-80">
     <p><small><a href="mailto:harrys.advantures@gmail.com">
           <u>harrys.advantures@gmail.com</u></a> | Gloucestershire, England<br>
         © Copyright 2024 Harry's Advantures | Website design and development by
