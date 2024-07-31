@@ -246,6 +246,10 @@ ul {
     .services-img {
         padding-top: 64px;
     }
+    .logo {
+        width: 100px;
+        padding: 36px 8px;
+    }
 }
 
 /*SERVICES*/
@@ -327,6 +331,7 @@ input[type='checkbox'] {
 
 .photo {
     max-width: 50%;
+    border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -425,6 +430,7 @@ input[type='checkbox'] {
     overflow-x: scroll;  
     gap: 32px;
 }
+
 .campaign-reel {
     width: 200px;
     border-radius: 15px;
@@ -432,7 +438,6 @@ input[type='checkbox'] {
 
 .campaign-p {
     width: 200px;
-
 }
 @media (min-width: 900px) {
     .campaign-reel {
